@@ -29,6 +29,7 @@ Later I will start studying Backend development. My goal is to at least become a
   <li>Positioning</li>
   <li>Pseudo-classes and pseudo-elements</li>
   <li>Flexes</li>
+  <li>Media</li>
 </ul>
 
 ### 3. JavaScript
@@ -71,12 +72,40 @@ Later I will start studying Backend development. My goal is to at least become a
 ## Task:
 ### This code does not execute properly. Try to figure out why.
 
-![''](/rsschool-cv/images/task-not.png);
+```javascript
+function multiply(a, b) {
+    a * b
+}
+
+multiply(2, 3); // underfined
+```
 
 The code doesn't work because there is no return statement. Return must always return some value, otherwise it will return underfined.
 
 Let's add return and the whole function will return the product of two parameters to us:
 
-![''](/rsschool-cv/images/task-complete.png);
+```javascript
+function multiply(a, b) {
+    return a * b
+}
+
+multiply(2, 3); // 6
+```
 
 Now the code works.
+
+## My work experience and practice:
+
+I've never worked on a team, so I don't have much experience.
+
+### My educational projects:
+
+- [Calculator](https://iogganik.github.io/Calculator/)
+- [My first layout](https://iogganik.github.io/Slavia/)
+- [Craft Green](https://iogganik.github.io/Craft-Green/) (
+No JS or media queries here)
+
+# My training 
+### I've never taken a course in my life. RS-school my first course.
+
+# My level English is A2.
