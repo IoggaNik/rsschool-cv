@@ -67,3 +67,16 @@ Later I will start studying Backend development. My goal is to at least become a
 </ul>
 
 ### 6. Git and GitHub
+
+## Task:
+### This code does not execute properly. Try to figure out why.
+
+![''](/rsschool-cv/images/task-not.png);
+
+The code doesn't work because there is no return statement. Return must always return some value, otherwise it will return underfined.
+
+Let's add return and the whole function will return the product of two parameters to us:
+
+![''](/rsschool-cv/images/task-complete.png);
+
+Now the code works.
